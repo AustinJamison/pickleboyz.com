@@ -19,13 +19,14 @@
 
 
 * {
-    // border: 1px solid red;
+    //border: 1px solid red;
     padding: 0;
     margin: 0;
     color: lightgoldenrodyellow;
     list-style-type: none;
     text-decoration: none;
     font-family: regular;
+    text-align: center;
 }
 body {
     background-color: #060b03;
@@ -50,14 +51,17 @@ nav a {
     border: 2px solid lightgoldenrodyellow;
     padding: 5px 10px;
     box-shadow:4px 4px;
+    display: inline-flex;
 }
 nav a:hover {
     background-color: #2c4da0;
 }
-nav{
-    text-align: center;
+nav a img {
+    max-width: 20px; /* Prevent overflow */
+    height: auto;
+    display: inline-flex;
+    padding: 5px 10px;
 }
-
 
 
 
@@ -84,6 +88,7 @@ nav{
 #abouth2 {
     font-size: 40px;
     font-family: medium;
+    background-color: #2c7ff9;
 }
 #aboutp {
     margin: 10px 0 0 0;
